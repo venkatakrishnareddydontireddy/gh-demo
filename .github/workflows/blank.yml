@@ -8,4 +8,5 @@ jobs:
         run: |
          echo "This is line one"
          echo "Hello, ${{ vars.MY_NAME }}"
+         echo "This is docker password, ${{ secrets.DOCKER_PASSWORD }}"
       
