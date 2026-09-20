@@ -1,0 +1,9 @@
+name: push trigger
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build step
+        run: echo "this is done by push trigger"
+      
