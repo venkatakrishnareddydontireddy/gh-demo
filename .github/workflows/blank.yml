@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Hello Step
         run: |
-          echo "This is line one"
-          echo "this is Second line"
+         echo "This is line one"
+         echo "this is Second line"
       
